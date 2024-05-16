@@ -1,3 +1,5 @@
+# Semantic Search With Segment Anything Model (SAM)
+
 Basically using Meta's Segment Anything Model (SAM) in conjunction with OpenAI's Contrastive Language-Image Pretraining (CLIP) to improve semantic search specifically for a certain object in an image with many objects. I came up with this idea to better improve the semantic search capabilities for my ESP32-CAM semantic search wearable
 
 For each image:
@@ -7,7 +9,7 @@ For each image:
 4. Cosine similarity between the text and each subimage is calculated
 5. Subimages with cosine similarities over a certain threshold will be outlined in red in the final picture
 
-Things to note:
+## Things to note:
 - The text description must be quite descriptive in order for the model to work well (describe the shape, color, and other visual characteristics of the object)
 - This is not a perfect object detection method (thresholds and prompts will need to be adjusted for different images)
 - I used FastSAM instead of the larger SAM model because it's a lot faster (could be used for real-time usecases) and my computer kinda sucks.
