@@ -7,7 +7,7 @@ For each image:
 2. A vector is generated for every subimage using CLIP
 3. A custom text description also embedded as a vector using CLIP
 4. Cosine similarity between the text and each subimage is calculated
-5. Subimages with cosine similarities over a certain threshold will be outlined in red in the final picture
+5. Subimages with cosine similarities over a certain threshold will be outlined in a red rectangle in the final picture
 
 ## Things to note:
 - The text description must be quite descriptive in order for the model to work well (describe the shape, color, and other visual characteristics of the object)
