@@ -17,6 +17,8 @@ TEXT_DESCRIPTION = "black glasses frames"
 5. Cosine similarity between the text and each subimage is calculated
 6. Subimages with cosine similarities over a certain threshold will be outlined in a red rectangle in the final picture
 
+<img src="https://github.com/xanderchinxyz/Semantic-Search-with-SAM/blob/main/assets/successful_object_outline.png" height="300"></img>
+
 ## Things To Note:
 - The text description must be quite descriptive in order for the model to work well (describe the shape, color, and other visual characteristics of the object)
 - This sometimes cannot perfectly outline the boundary of a specific object (thresholds and prompts will need to be adjusted for different images) - but it is great at identifying if an object is in an image.
