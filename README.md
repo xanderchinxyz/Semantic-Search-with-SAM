@@ -7,7 +7,9 @@ Basically using Meta's Segment Anything Model (SAM) in conjunction with OpenAI's
 
 ## For Each Image:
 1. The SAM model segments the image into many subimages based around the boundaries of the objects in an image
+<br>
 <img src="https://github.com/xanderchinxyz/Semantic-Search-with-SAM/blob/main/assets/segmented_images.png" height="300"></img>
+<br>
 3. A vector is generated for every subimage using CLIP
 4. A custom text description also embedded as a vector using CLIP
 5. Cosine similarity between the text and each subimage is calculated
