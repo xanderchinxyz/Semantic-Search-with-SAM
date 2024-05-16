@@ -5,6 +5,8 @@ Basically using Meta's Segment Anything Model (SAM) in conjunction with OpenAI's
 ## Example Image:
 <img src="https://github.com/xanderchinxyz/Semantic-Search-with-SAM/blob/main/assets/example_image.png" height="300"></img>
 
+TEXT_DESCRIPTION = "black glasses frames"
+
 ## For Each Image:
 1. The SAM model segments the image into many subimages based around the boundaries of the objects in an image
 <br></br>
