@@ -2,7 +2,8 @@
 
 Basically using Meta's Segment Anything Model (SAM) in conjunction with OpenAI's Contrastive Language-Image Pretraining (CLIP) to improve semantic search specifically for a certain object in an image with many objects. I came up with this idea to better improve the semantic search capabilities for my ESP32-CAM semantic search wearable
 
-For each image:
+## For each image:
+[Ex: ![alt text](http://url/to/img.png)](https://github.com/xanderchinxyz/Semantic-Search-with-SAM/blob/main/assets/example_image.png)
 1. The SAM model segments the image into many subimages based around the boundaries of the objects in an image
 2. A vector is generated for every subimage using CLIP
 3. A custom text description also embedded as a vector using CLIP
