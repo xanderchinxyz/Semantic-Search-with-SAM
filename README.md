@@ -1,4 +1,4 @@
-# Semantic Search With Segment Anything Model (SAM)
+# Object Search With Segment Anything Model (SAM) and Contrastive Language-Image Pretraining (CLIP)
 
 Basically using Meta's Segment Anything Model (SAM) in conjunction with OpenAI's Contrastive Language-Image Pretraining (CLIP) to improve semantic search specifically for a certain object in an image with many objects. I came up with this idea to better improve the semantic search capabilities for my ESP32-CAM semantic search wearable.
 
